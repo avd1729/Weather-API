@@ -38,6 +38,6 @@ def get_weather(api_key, city_name):
 
 if __name__ == "__main__":
     # Replace with your OpenWeatherMap API key
-    api_key = "87ce6387cccc97c824ed350534e68fb2"
+    api_key = ""
     city_name = "New Delhi"   # Replace with the city name you want to fetch weather data for
     get_weather(api_key, city_name)
